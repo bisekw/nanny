@@ -17,5 +17,6 @@ public class Client {
     String zipcode; //adres kod pocztowy
     String adresinfo; // adress informacja dodatkowa klatka pietro itp.
     boolean zleceniodawca;
+    SimpleDateFormat dataurodzenia = new SimpleDateFormat("dd.MM.yyyy HH:mm:ss"); //data urodzenia
 
 }
